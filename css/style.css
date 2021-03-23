@@ -1,11 +1,9 @@
 /* -----common----- */
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Rubik Mono One", sans-serif;
 }
@@ -14,12 +12,6 @@ body {
   content: "";
   clear: both;
   display: table;
-}
-
-header,
-main {
-  position: relative;
-  left: 0;
 }
 
 /* -----header----- */
@@ -38,7 +30,6 @@ nav li {
   list-style: none;
   float: left;
   margin: 10px;
-  background-color: white;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -51,6 +42,11 @@ li > a {
   display: inline-block;
   padding: 15px;
   color: black;
+  background-color: white;
+}
+li:hover a {
+  color: white;
+  background-color: black;
 }
 
 /* -----main----- */
