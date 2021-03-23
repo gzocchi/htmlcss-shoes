@@ -73,7 +73,8 @@ li > a {
   transform: translate(-50%, -50%);
 }
 
-.container > h2 {
+.container::after {
+  content: "il nostro modello di punta";
   font-size: 30px;
   display: inline-block;
   width: 45%;
